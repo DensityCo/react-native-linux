@@ -1,5 +1,5 @@
-import QtQuick 2.4
-import QtQuick.Controls 1.4
+import QtQuick 2
+import QtQuick.Controls 2
 
 
 Item {
@@ -10,12 +10,12 @@ Item {
 
     signal backTriggered();
 
-    Component {
-        id: pageBackAction
-        Action {
-            iconName: navigatorRoot.numberPages > 1 ? "back" : ""
-        }
-    }
+#    Component {
+#        id: pageBackAction
+#        Action {
+#            iconName: navigatorRoot.numberPages > 1 ? "back" : ""
+#        }
+#    }
 
     StackView {
         id: pageStack

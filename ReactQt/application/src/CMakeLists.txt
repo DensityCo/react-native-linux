@@ -36,4 +36,5 @@ target_link_libraries(
   react-native
 )
 
+install(TARGETS ${APP_NAME} DESTINATION bin)
 

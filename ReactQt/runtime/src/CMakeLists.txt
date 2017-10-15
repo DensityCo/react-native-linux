@@ -104,3 +104,5 @@ add_custom_target(
   copy-qmldir ALL
   COMMAND cp ${CMAKE_CURRENT_SOURCE_DIR}/qmldir ${CMAKE_CURRENT_BINARY_DIR}/React
 )
+
+install(TARGETS react-native DESTINATION lib)
